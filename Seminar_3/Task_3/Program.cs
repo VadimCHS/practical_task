@@ -4,6 +4,7 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 Console.Clear ();
+
 int ReadNumberInt(string msg)                           // Ввод числа 
 {                                              
         Console.Write($"{msg}");
