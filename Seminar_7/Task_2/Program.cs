@@ -38,7 +38,7 @@ void PrintArray(int[,] array)
     }
 }
 
-// П
+// Поиск элемента в массиве по индексу.
 int ValueArray(int[,] array, int arrayX, int arrayY)
 {
     int result = 0;
@@ -52,6 +52,7 @@ int ValueArray(int[,] array, int arrayX, int arrayY)
     return -1;
 }
 
+// Перевод массива из строки в целочисленный массив.
 int[] GetArrFromStr (string strArr)
 {
     string[] nums = strArr.Split(" ");
